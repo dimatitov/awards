@@ -1,0 +1,17 @@
+curl -X POST http://localhost:3000/categories \
+-H "Content-Type: application/json" \
+-d '{
+  "name": "Ожидаемая игра",
+  "id": "5",
+  "items": [
+    { "id": 1, "name": "ККД 2" },
+    { "id": 2, "name": "ГТА 6" },
+    { "id": 3, "name": "Doom: The Dark Ages" },
+    { "id": 4, "name": "Death Stranding 2" },
+    { "id": 5, "name": "Avowed" },
+    { "id": 6, "name": "Assassin’s Creed Shadows" },
+    { "id": 7, "name": "Mafia: The Old Country" },
+    { "id": 8, "name": "Fable" },
+    { "id": 9, "name": "Marvel Blade" }
+  ]
+}'
